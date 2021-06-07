@@ -1,0 +1,12 @@
+header{
+    background-position: fixed;
+}
+
+
+body{
+     text-align: center;
+     background-color: rgb(69, 173, 214);
+}
+#rodapé{
+    background-color: tomato;
+}
