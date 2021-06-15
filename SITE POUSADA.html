@@ -9,13 +9,17 @@
 <body>
   <header>
   <div>
-    <div>
-      <a href="#">Pousada <span>Secreta</span></a>
+    <div id="topo">
+      <a href="#" id="Ps">Pousada <span>Secreta</span></a>
 
       <div>
-        <a href="#sobre">Sobre</a>
-        <a href="#rota">Rota</a>
-        <a href="quartos/index.html">Quartos</a>
+        <nav class="menu">
+         <a href="#sobre">Sobre</a>
+         &nbsp;&nbsp;&nbsp;
+         <a href="#rota">Rota</a>
+         &nbsp;&nbsp;&nbsp;
+         <a href=".quartos">Quartos</a>
+        </nav> 
       </div>
     </div>
   </div>
@@ -43,23 +47,26 @@
       </p>
     </div>
 
-    <div>
-      <a href="#">
-        <img src="quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
-        <p>Quarto de Solteiro</p>
-      </a>
-
-      <a href="#">
-        <img src="quarto-casal1.jpg" alt="Quarto de casal" title="Quarto de casal">
-        <p>Quarto de Casal</p>
-      </a>
-
-      <a href="#">
-        <img src="quarto-familia1.jpg" alt="Quarto família" title="Quarto família">
-        <p>Quarto Família</p>
-      </a>
+    <div class="quartos">
+      <div id="quart">
+        <a href="#">
+          <img src="quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de solteiro" width="300px" height="150px">
+          <p>Quarto de Solteiro</p>
+        </a>
+      </div>
+      <div id="quart">
+        <a href="#">
+          <img src="quarto-casal1.jpg" alt="Quarto de casal" title="Quarto de casal" width="300px" height="150px" >
+          <p>Quarto de Casal</p>
+        </a>
+      </div>
+      <div id="quart">
+        <a href="#">
+          <img src="quarto-familia1.jpg" alt="Quarto família" title="Quarto família" width="300px" height="150px">
+          <p>Quarto Família</p>
+        </a>
+      </div>
     </div>
-
     <div id="rota">
       <h2>
         Rota
@@ -164,7 +171,7 @@
       </a>
 
       <div>
-        © Copyright - PousadaDev
+        © Copyright - CM
       </div>
     </div>
   </div>
