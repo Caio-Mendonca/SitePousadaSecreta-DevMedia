@@ -1,12 +1,42 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align:center;
+    left: 45px;
+    right: 45px;
+    top: 25px;
+
+}
+#Ps {
+    float: left;
+    border: solid black;
+    width: 200px;
+    background: white;
+}
+.menu{
+    float: right;
+    border: solid black;
+    width: 200px;
+    background: white;
+}
 header{
-    background-position: fixed;
+    width:unset;
+    height: 600px;
+    padding: 20px;
+    background-image: url("img-fundo.jpg");
 }
-
-
-body{
-     text-align: center;
-     background-color: rgb(69, 173, 214);
+.quartos{
+    border-top: 3px solid black;
+    width: 90%;
+    margin: 0%;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+ 
 }
-#rodapé{
-    background-color: tomato;
+.quartos #quart{
+    margin: 15px;
+    right: 40px;
+    left: 40px;
+
 }
