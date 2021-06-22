@@ -5,35 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pousada Secreta</title>
   <link rel="stylesheet" type="text/css" href="Design.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-  <div>
-    <div id="topo">
-      <a href="#" id="Ps">Pousada <span>Secreta</span></a>
+    <div class="topo">
+      <div class="container-topo">
+          <a href="#" class="titulo" id="titulo">Pousada <span>Secreta</span></a>
+        <div class=>
+          <a href="#sobre" class="link">Sobre</a>
+          <a href="#rota" class="link">Rota</a>
+          <a href="quartos.html#quartos" class="link">Quartos</a>
+        </div>
 
-      <div>
-        <nav class="menu">
-         <a href="#sobre">Sobre</a>
-         &nbsp;&nbsp;&nbsp;
-         <a href="#rota">Rota</a>
-         &nbsp;&nbsp;&nbsp;
-         <a href=".quartos">Quartos</a>
-        </nav> 
       </div>
     </div>
-  </div>
   </header>
   <main>
   <div>
-    <div>
-      <div>
+    <div class="titulo-site">
+      <div class="descricao-site">
         <h1>Pousada Secreta</h1>
         <p>A pousada reservada em Angra dos Reis</p>
       </div>
     </div>
-
-    <div>
+    <div class="limitar-container titulo-box">
       <h2>
         Seja bem-vindo(a)!
       </h2>
@@ -46,28 +42,27 @@
         Temos quartos para solteiro, casal ou família.
       </p>
     </div>
-
-    <div class="quartos">
-      <div id="quart">
-        <a href="#">
-          <img src="quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de solteiro" width="300px" height="150px">
+    <div class="limitar-container quartos">
+      <div class="quarto">
+        <a href="quartos.html#solteiro">
+          <img src="quarto-solteiro1.jpg" alt="Quarto de solteiro" title="Quarto de solteiro">
           <p>Quarto de Solteiro</p>
         </a>
       </div>
-      <div id="quart">
-        <a href="#">
-          <img src="quarto-casal1.jpg" alt="Quarto de casal" title="Quarto de casal" width="300px" height="150px" >
+      <div class="quarto">
+        <a href="quartos.html#casal">
+          <img src="quarto-casal1.jpg" alt="Quarto de casal" title="Quarto de casal">
           <p>Quarto de Casal</p>
         </a>
       </div>
-      <div id="quart">
-        <a href="#">
-          <img src="quarto-familia1.jpg" alt="Quarto família" title="Quarto família" width="300px" height="150px">
+      <div class="quarto">
+        <a href="quartos.html#familia">
+          <img src="quarto-familia1.jpg" alt="Quarto família" title="Quarto família">
           <p>Quarto Família</p>
         </a>
       </div>
     </div>
-    <div id="rota">
+    <div id="rota" class="limitar-container titulo-box">
       <h2>
         Rota
       </h2>
@@ -76,12 +71,10 @@
         Veja como chegar até a pousada.
       </p>
     </div>
-
-    <div>
+    <div class="container-rota">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14692.471710812997!2d-43.3641911!3d-22.9826906!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x539cb07246f0e38d!2sVia%20Parque%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1612707978931!5m2!1spt-BR!2sbr" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-
-    <div id="sobre">
+    <div id="sobre" class="limitar-container titulo-box container-descricao">
       <h2>
         Sobre a pousada!
       </h2>
@@ -91,62 +84,59 @@
       </p>
     </div>
 
-    <div>
-      <div>
-        <div>
+    <div class="limitar-container descricoes">
+      <div class="descricao">
+        <div class="descricao-conteudo">
           <h3>A pousada</h3>
           <p>
             A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.
           </p>
         </div>
 
-        <img src="img1.jpg" alt="Faixada" title="Faixada"/>
+        <img  class="descricao-img" src="img1.jpg" alt="Faixada" title="Faixada"/>
       </div>
-
-      <div>
-        <div>
+      <div class="descricao">
+        <div class="descricao-conteudo">
           <h3>Nossos quartos</h3>
           <p>
             Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeições. Além disso, as unidades da Pousada Dev contam com ar-condicionado e guarda-roupa.
           </p>
         </div>
 
-        <img src="img2.jpg" alt="Quartos" title="Quartos"/>
+        <img class="descricao-img" src="img2.jpg" alt="Quartos" title="Quartos"/>
       </div>
-
-      <div>
-        <div>
+      <div class="descricao">
+        <div class="descricao-conteudo">
           <h3>Alimentação</h3>
           <p>
             A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24hrs.
           </p>
         </div>
 
-        <img src="img3.jpg" alt="Restaurante" title="Restaurante"/>
+        <img class="descricao-img" src="img3.jpg" alt="Restaurante" title="Restaurante"/>
       </div>
-
-      <div>
-        <div>
+      <div class="descricao">
+        <div class="descricao-conteudo">
           <h3>Recepção</h3>
           <p>
             Nossa recepção fica aberta 24hrs.
           </p>
         </div>
 
-        <img src="img5.jpg" alt="Recepção" title="Recepção"/>
+        <img class="descricao-img" src="img5.jpg" alt="Recepção" title="Recepção"/>
       </div>
     </div>
   </div>
   </main>
   <footer>
-  <div id="rodapé">
-    <div>
-      <div>
+  <div class="rodape">
+    <div class="limitar-container rodape-container">
+      <div class="rodape-info">
         <h4>Entre em contato conosco:</h4>
       </div>
 
-      <a target="_blank" href="https://goo.gl/maps/wPAS58QxiTopxK6w7">
-        <img src="endereco.png" alt="Ícone endereco" title="Ícone endereco"/>
+      <a class="rodape-info rodape-link" target="_blank" href="https://goo.gl/maps/wPAS58QxiTopxK6w7">
+        <img class="rodape-icone"  src="endereco.png" alt="Ícone endereco" title="Ícone endereco"/>
 
         <p>
           Endereço
@@ -154,24 +144,24 @@
         </p>
       </a>
 
-      <div>
-        <img src="telefone.png" alt="Ícone telefone" title="Ícone telefone"/>
+      <div class="rodape-info">
+        <img class="rodape-icone" src="telefone.png" alt="Ícone telefone" title="Ícone telefone"/>
 
         <p>
           Cel: 5521000000000
         </p>
       </div>
 
-      <a target="_blank" href="https://www.booking.com/searchresults.pt-br.html?aid=375635;label=msn-wLZ0m4wRNI00wFHQAaaO3w-79920787059858%3Atikwd-79920803013016%3Aaud-808219487%3Aloc-20%3Aneo%3Amte%3Adec%3Aqsbooking;sid=9ca5cbe6c9db71b34b98c0738ea780f4;dest_id=-666610;dest_type=city&">
-        <img src="calendario.png" alt="Ícone calendario" title="Ícone calendario"/>
+      <a class="rodape-info rodape-link" target="_blank" href="https://www.booking.com/searchresults.pt-br.html?aid=375635;label=msn-wLZ0m4wRNI00wFHQAaaO3w-79920787059858%3Atikwd-79920803013016%3Aaud-808219487%3Aloc-20%3Aneo%3Amte%3Adec%3Aqsbooking;sid=9ca5cbe6c9db71b34b98c0738ea780f4;dest_id=-666610;dest_type=city&">
+        <img class="rodape-icone" src="calendario.png" alt="Ícone calendario" title="Ícone calendario"/>
 
         <p>
           Faça sua reserva pelo Booking.com
         </p>
       </a>
 
-      <div>
-        © Copyright - CM
+      <div class="rodape-copright">
+        © Copyright - Caio JM
       </div>
     </div>
   </div>
